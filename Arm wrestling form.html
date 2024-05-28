@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <title>Arm wrestling!</title>
+    <link rel="stylesheet" href="armwrestling.css">
+</head>
+
+<body>
+    <h1>Arm wrestling registration!!</h1>
+    <form action="">
+        <div id="Box">
+           <div class="Id"><label for="First name">First Name:</label>
+            <input type="text" name="Id" id="First name" minlength="5" maxlength="10" placeholder="First name" required>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <label for="Last name">Last Name:</label>
+            <input type="text" name="Id" id="Last name" minlength="5" maxlength="10" placeholder="last name"
+                required><br>
+           </div>
+
+        
+         <div class="Location">
+            <p>Select a City</p>
+            <input type="Radio" name="Location" id="Delhi" value="Delhi">
+            <label for="Delhi">Delhi</label><br>
+            <input type="Radio" name="Location" id="Gurugram" value="Gurugram">
+            <label for="Gurugram">Gurugram</label><br>
+            <input type="Radio" name="Location" id="Noida" value="Noida">
+            <label for="Noida">Noida</label> <br>
+         </div>
+
+
+         <div class="Email"> <label for="email">Email Id:</label>
+            <input type="email" name="Id" id="email" placeholder="Email" required>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="pass">Password:</label>
+            <input type="password" name="Id" id="pass" placeholder="Password" required>
+         </div>
+
+         <div class="Age"><label for="Age">Age group:</label>
+            <select name="Age group" id="Age" required>
+                <option value="">--Please select your age group--</option>
+                <option value="15-20">15-20</option>
+                <option value="20-25">20-25</option>
+                <option value="25-30">25-30</option>
+            </select>
+         </div>
+
+         <div class="Date"><label for="Date">Select Date:</label>
+            <input type="date" id="Date" name="Date" min="2024-04-01" max="2024-05-31" required><br>
+         </div>
+         <div  class="Button">
+         <button type="submit" style="font-size: medium;">Register</button>
+         </div>
+        </div>
+
+    </form>
+
+</body>
+
+
+</html>
